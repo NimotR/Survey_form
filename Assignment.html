@@ -1,0 +1,69 @@
+<html>
+        <head>
+                <meta name="author" content="Raji Nimotallahi">
+                <meta name="viewport" content="width=device-width">
+                <meta name="keywords" content="Form">
+                <title>Assignment</title>
+                <link rel="stylesheet" href="Assignment.css">
+        </head>
+<body>
+<h1>SURVEY FORM</h1>
+    <form>
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <label>
+           <div class="question"> Name</div> 
+           <div class="input">
+                <input type="text" name="Name" placeholder="Enter your name"> 
+           </div>
+        </label>
+        <label>
+            <div class="question">Email</div>
+            <div class="input">
+                <input type="text" name="Email" placeholder="Enter your Email">
+            </div> 
+        </label>
+        <label>
+            <div class="question">Age</div>
+            <div class="input">
+                <input type="number" name="Age" placeholder="Age">
+            </div> 
+        </label>
+        <label>
+            <div class="question">Which option best describes your current role?</div>
+            <div class="input">
+                <select name="role" id="role">
+                        <option value="Student">Student</option>
+                        <option value="Employed">Employed</option>  
+                        <option value="Unemployed">Unemployed</option>  
+                </select>  
+           </div>
+        </label>
+        <label>
+            <div class="question">How likely is that you would recommend freeCodeCamp to a friend?</div>
+            <div class="input">
+                       <input type="radio" name="Recommendation"> Definetly<br> 
+                       <input type="radio" name="Recommendation"> Maybe<br>
+                       <input type="radio" name="Recommendation"> Not sure
+            </div>
+        </label>
+        <label>
+            <div class="question">What do you like most in FCC</div>
+            <div class="input">
+                <select name="like" id="like">
+                        <option value="Select an option">Select an option</option>
+                        <option value="Wifi">Wifi</option>
+                        <option value="Computer">Computer</option>
+                      </select>
+           </div>
+        </label>
+        <label>
+           <div class="question">Things that should be improved in the future (Check all that apply)</div>
+           <div class="input">
+               <input type="checkbox" name="CheckAll"> Front-end Projects<br>
+               <input type="checkbox" name="CheckAll"> Back-end Projects<br>
+               <input type="checkbox" name="CheckAll"> Data Visualization 
+           </div>                     
+        </label>
+    </form>
+</body>
+</html>

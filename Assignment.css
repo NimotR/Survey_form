@@ -1,0 +1,42 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-image: url("Graphic2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1{
+    color: rgb(99, 11, 99);
+}
+
+form {
+    background-color: white;
+    margin: 20px;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+
+div {
+    width: 48%;
+    display: inline-block;
+    text-align: right;
+    padding-top: 0;
+    margin: 10px;
+}
+
+.input {
+text-align: left;
+}
+
